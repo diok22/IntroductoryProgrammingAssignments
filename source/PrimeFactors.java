@@ -11,7 +11,7 @@ class PrimeFactors {
     int incrementer = n % 2 == 0 ? 1 : 2;
     for (int i = 1; i <= Math.sqrt(n); i += incrementer) {
 
-        if (n % i == 0) {
+        if (n % i == 0 ) {
             factors.add(i);
 
             if (i != n / i) {
@@ -19,7 +19,7 @@ class PrimeFactors {
             }
         }
     }
-    
+
 
     Collections.sort(factors);
 
