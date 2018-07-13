@@ -25,8 +25,9 @@ class PrimeFactors {
     prime.generate(30);
   }
 
-}
 
+}
+/**
 class PrimeFactorsTestDrive {
   public static void main(String[] args) {
     PrimeFactors prime = new PrimeFactors();
@@ -34,3 +35,4 @@ class PrimeFactorsTestDrive {
   }
 
 }
+*/
